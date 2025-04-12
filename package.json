@@ -2,9 +2,11 @@
   "name": "bot-australis_online_v1.0",
   "version": "1.0.0",
   "main": "bot.js",
-  "type": "module",
   "scripts": {
     "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
@@ -13,3 +15,4 @@
     "pino": "^8.14.2"
   }
 }
+
